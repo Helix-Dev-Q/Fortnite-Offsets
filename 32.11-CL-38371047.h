@@ -3,7 +3,7 @@
 #include <vector>
 #include <intrin.h>
 
-class Fortnite
+class Sarah
 {
 public:
 	class Offsets
@@ -66,7 +66,8 @@ public:
 		static inline uint64_t SpawnSupplyDrop;
 		static inline uint64_t NotifyGameMemberAdded;
 		static inline uint64_t NotifyDeath;
-		static inline uint64_t OnPawnDied;lyCharacterCustomization;
+		static inline uint64_t OnPawnDied;
+		static inline uint64_t ApplyCharacterCustomization;
 		static inline uint64_t InitializePlayerGameplayAbilities;
 		static inline uint64_t CanAffordToPlaceBuildableClass;
 		static inline uint64_t ServerCreateBuildingActor;
